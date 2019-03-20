@@ -1,0 +1,189 @@
+body{
+  font-family:sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, #181d7b, #98672f);
+
+}
+
+.logo{
+  width: 220px;
+  display: inline-block;
+}
+
+div{
+  display: inline-block;
+}
+
+.container{
+}
+
+.first{
+  //background-color: black;
+  width: 80%;
+  align-items:  center;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.con-head{
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 30px;
+
+
+}
+
+.head{
+  font-size: 40px;
+}
+
+.sub-head{
+  font-size: 35px;
+  display: block;
+}
+
+.but-head{
+  margin-top: 15px;
+}
+
+.but-head a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: all 0.5s;
+  color: white;
+}
+
+.but-head :hover {
+  transition: all 0.5s;
+  color: black;
+  border-color: black;
+  //background-image: linear-gradient(to bottom,#b17836,#533d4a);
+
+}
+
+hr{
+  display: flex;
+  text-decoration: none;
+  height: 2px;
+  background-color: white;
+  border-color: transparent;
+  border-radius: 300px;
+}
+
+.history{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.para{
+  margin-bottom: 20px;
+}
+
+.third{
+  transition: all 0.5s;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.third1{
+  width: 35%;
+
+}
+
+::placeholder{
+  color: #c7c4c3;
+}
+
+.Review{
+  margin-bottom: 20px;
+}
+
+.Name{
+  display: inline;
+}
+
+.input_name{
+  width: 150px;
+  height: 15px;
+  border-radius: 4px;
+  border-color: transparent;
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+
+.Comment{
+  display: block;
+  margin-top: 15px;
+
+}
+
+.input_comment{
+
+  border-radius: 4px;
+  border-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.bntholder{
+  position: relative;
+  float: right;
+
+
+}
+
+.bnt{
+  padding: 3px 30px;
+  border: 2px solid transparent ;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: all 0.5s;
+  color: white;
+}
+
+.bntholder{
+
+}
+
+
+.clear{
+  background-color: #a00000;
+}
+
+button .clear :hover {
+
+color: black;
+background-color: black;
+}
+
+.submit{
+  background-color: #4a3852;
+}
+
+.third2{
+  position: absolute;
+  width: 64%;
+
+  margin-left: 30px;
+
+}
+
+.timetable{
+  width: 650px;
+  border: 2px soldi transparent;
+  border-radius: 7px;
+}
+
+.block{
+  height: 100px;
+
+
+}
